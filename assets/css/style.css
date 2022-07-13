@@ -1,0 +1,82 @@
+:root {
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --azul: #3772FF;
+    --verde: #36D6AD;
+    --coral: #FC7071;
+    --creme: #FCF0E3;
+    --cinza: #737380;
+    --cinza-claro: #BCBCBC;
+    --cinza-claro-fundos: #F7F7F7;
+
+    --fonte-principal: 'Poppins', san-serif;
+    --fonte-secundaria: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+    background-image: url('../img/OndasCima.svg'), url('../img/OndasLaterais.svg');
+    background-position: top left, center right;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+}
+
+.corpo-principal {
+    background-color: var(--azul);
+}
+
+.cabecalho {
+    padding: 3rem;
+}
+
+.cabecalho-img {
+    padding-right: 3.2rem;
+}
+
+.conteudo-pagina-inicial {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.logo-inicial {
+    width: 70%;
+    padding: 3rem 0 1rem 0;
+}
+
+.titulo-inicio {
+    padding: 0.2rem 1rem 1rem;
+    color: var(--branco);
+    font-family: var(--fonte-secundaria);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 48px;
+}
+
+.paragrafo-inicio {
+    padding: 0.2rem 1rem 0.5rem 1rem;
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.conteudo-links {
+    margin: 1rem auto 1rem;
+    display: block;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--coral);
+    box-shadow: 1.5px 1.5px 8px rgba(0, 0, 0, 0.3);
+
+    color: var(--branco);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    width: 75%;
+}   
