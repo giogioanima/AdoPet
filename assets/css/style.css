@@ -14,12 +14,14 @@
 }
 
 body {
-    background-image: url('../img/OndasCima.svg'), url('../img/OndasLaterais.svg');
-    background-position: top left, center right;
+    background-image: url('../img/OndasCima.svg'), url('../img/OndasLaterais.svg'), url('../img/Animais.svg');
+    background-position: top left, center right, bottom 6rem center;
     background-repeat: no-repeat;
     min-height: 100vh;
     font-size: 16px;
     font-family: var(--fonte-principal);
+    display: flex;
+    flex-direction: column;
 }
 
 .corpo-principal {
@@ -38,6 +40,7 @@ body {
     text-align: center;
     width: 70%;
     margin: 0 auto;
+    flex: 1;
 }
 
 .logo-inicial {
