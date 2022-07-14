@@ -37,6 +37,7 @@ body {
 }
 
 .conteudo-pagina-inicial {
+    position: relative;
     text-align: center;
     width: 70%;
     margin: 0 auto;
@@ -82,11 +83,8 @@ body {
     width: 75%;
 }
 
-.animais-img {
-    align-self: start;
-}
-
 .rodape {
+    margin: 20rem 0 0 0;
     background-color: var(--verde);
     padding: 3rem;
     color: var(--branco);
