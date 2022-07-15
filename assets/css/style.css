@@ -15,7 +15,7 @@
 
 body {
     background-image: url('../img/OndasCima.svg'), url('../img/OndasLaterais.svg'), url('../img/Animais.svg');
-    background-position: top left, center right, bottom 6rem center;
+    background-position: top left, top 13rem right, bottom 6rem center;
     background-repeat: no-repeat;
     min-height: 100vh;
     font-size: 16px;
@@ -37,6 +37,7 @@ body {
 }
 
 .conteudo-pagina-inicial {
+    position: relative;
     text-align: center;
     width: 70%;
     margin: 0 auto;
@@ -82,11 +83,8 @@ body {
     width: 75%;
 }
 
-.animais-img {
-    align-self: start;
-}
-
 .rodape {
+    margin: 19rem 0 0 0;
     background-color: var(--verde);
     padding: 3rem;
     color: var(--branco);
@@ -94,4 +92,8 @@ body {
     font-size: 14px;
     line-height: 24px;
     text-align: center;
+}
+
+.assinatura {
+    color: var(--branco);
 }
