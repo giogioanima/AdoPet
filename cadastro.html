@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>AdoPet | Página Inicial</title>
+		<link rel="stylesheet" href="assets/css/reset.css">
+		<link rel="stylesheet" href="assets/css/cadastro.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	</head>
+    
+    <body class="corpo-principal">
+		<header class="cabecalho">
+			<a href="home.html"><img src="assets/img/Casa.svg" alt="Página inicial" class="cabecalho-img"></a>
+			<a href="message.html"><img src="assets/img/Mensagens.svg" alt="Caixa de mensagens" class="cabecalho-img"></a>
+		</header>
+
+		<main class="conteudo-cadastro">
+            <img src="assets/img/LogoAzul.svg" alt="Logo Azul da Adopet" class="logo-azul">
+            <p class="txt-cadastro">Ainda não tem cadastro? </p>
+            <p class="txt-cadastro">Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
+
+            <form class="formulario-cadastro">
+                <label for="email">Email</label>
+                <input type="text" id="email" class="input-padrao" required placeholder="Escolha seu melhor email">
+            
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" class="input-padrao" required placeholder="Digite seu nome completo">
+
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" class="input-password" required placeholder="Crie uma senha">
+
+                <label for="confirma-senha">Confirma sua senha</label>
+                <input type="password" id="confirma-senha" class="input-password" required placeholder="Repita a senha criada acima">
+            </form>
+
+            <input type="submit" value="Cadastrar" class="enviar">
+		</main>
+
+		<footer class="rodape">
+			<p class="texto-rodape">2022 - Desenvolvido por Gio Queiroz.</p>
+		</footer>
+	</body>
+</html>
