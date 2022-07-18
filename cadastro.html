@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>AdoPet | Página Inicial</title>
 		<link rel="stylesheet" href="assets/css/reset.css">
-		<link rel="stylesheet" href="assets/css/cadastro.css">
+		<link rel="stylesheet" href="assets/css/cadastro-login.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
@@ -19,17 +19,17 @@
 			<a href="message.html"><img src="assets/img/Mensagens.svg" alt="Caixa de mensagens" class="cabecalho-img"></a>
 		</header>
 
-		<main class="conteudo-cadastro">
+		<main class="conteudo-main">
             <img src="assets/img/LogoAzul.svg" alt="Logo Azul da Adopet" class="logo-azul">
             <p class="txt-cadastro">Ainda não tem cadastro? </p>
             <p class="txt-cadastro">Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
 
-            <form class="formulario-cadastro">
+            <form>
                 <label for="email">Email</label>
-                <input type="text" id="email" class="input-padrao" required placeholder="Escolha seu melhor email">
+                <input type="email" id="email" class="input-email" required placeholder="Escolha seu melhor email">
             
                 <label for="nome">Nome</label>
-                <input type="text" id="nome" class="input-padrao" required placeholder="Digite seu nome completo">
+                <input type="text" id="nome" class="input-nome" required placeholder="Digite seu nome completo">
 
                 <label for="senha">Senha</label>
                 <input type="password" id="senha" class="input-password" required placeholder="Crie uma senha">
@@ -38,7 +38,7 @@
                 <input type="password" id="confirma-senha" class="input-password" required placeholder="Repita a senha criada acima">
             </form>
 
-            <input type="submit" value="Cadastrar" class="enviar">
+            <a href="home.html"><input type="submit" value="Cadastrar" class="enviar-cadastro"></a>
 		</main>
 
 		<footer class="rodape">

@@ -15,7 +15,7 @@
 
 body {
     background-image: url('../img/OndasCima.svg'), url('../img/OndasLaterais.svg'), url('../img/Animais.svg');
-    background-position: top left, top 13rem right, bottom 6rem center;
+    background-position: top left, top 13rem right, bottom 5.7rem center;
     background-repeat: no-repeat;
     min-height: 100vh;
     font-size: 16px;
@@ -86,7 +86,7 @@ body {
 .rodape {
     margin: 19rem 0 0 0;
     background-color: var(--verde);
-    padding: 3rem;
+    padding: 2.7rem;
     color: var(--branco);
     font-weight: 400;
     font-size: 14px;
