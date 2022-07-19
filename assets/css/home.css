@@ -1,0 +1,114 @@
+:root {
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --azul: #3772FF;
+    --verde: #36D6AD;
+    --coral: #FC7071;
+    --creme: #FCF0E3;
+    --cinza: #737380;
+    --cinza-claro: #BCBCBC;
+    --cinza-claro-fundos: #F7F7F7;
+
+    --fonte-principal: 'Poppins', san-serif;
+    --fonte-secundaria: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+    background-image: url('../img/OndasCima.svg');
+    background-position: top left;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+    display: flex;
+    flex-direction: column;
+}
+
+.corpo-principal {
+    background-color: var(--branco);
+}
+
+.cabecalho {
+    padding: 3rem;
+    display: flex;
+}
+
+.cabecalho-img {
+    margin-right: 3.2rem;
+}
+
+.cabecalho-user-img {
+    position: absolute;
+    margin: -0.5rem 0 0 5rem;
+}
+
+.conteudo-home {
+    position: relative;
+    flex: 1;
+}
+
+.txt-home {
+    color: var(--azul);
+    text-align: center;
+    margin: 2rem 20% 2rem 20%;
+}
+
+.catalogo {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0 0 0;
+    padding: 1rem;
+    background-color: var(--cinza-claro-fundos);
+    background: rgba(0,0,0,0.03);
+}
+
+.catalogo-pets{
+    padding-left: 1rem;
+    color: var(--cinza);
+}
+
+.catalogo-nome {
+    color: var(--azul);
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0 0 0.5rem 0;
+}
+
+li {
+    list-style-type: none;
+}
+.catalogo-dados {
+    font-size: 14px;    
+    line-height: 20px;
+}
+
+.catalogo-cidade {
+    margin: 2rem 0 0.5rem 0;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.catalogo-contato {
+    color: var(--cinza);
+    display: flex;
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.catalogo-contato img {
+    margin-right: 0.5rem;
+}
+
+.rodape {
+    background-color: var(--verde);
+    padding: 2.7rem;
+    color: var(--branco);
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.assinatura {
+    color: var(--branco);
+}
