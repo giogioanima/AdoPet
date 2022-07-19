@@ -61,6 +61,8 @@ body {
     padding: 1rem;
     background-color: var(--cinza-claro-fundos);
     background: rgba(0,0,0,0.03);
+    align-items: center;
+    justify-content: center;
 }
 
 .catalogo-pets{
@@ -78,6 +80,7 @@ body {
 li {
     list-style-type: none;
 }
+
 .catalogo-dados {
     font-size: 14px;    
     line-height: 20px;
