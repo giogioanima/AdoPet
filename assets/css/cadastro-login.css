@@ -19,6 +19,7 @@ body {
     background-repeat: no-repeat;
     min-height: 100vh;
     font-size: 16px;
+    font-weight: 400;
     font-family: var(--fonte-principal);
     display: flex;
     flex-direction: column;
@@ -54,7 +55,6 @@ body {
     padding: 0.2rem 0 0.5rem 0;
     color: var(--azul);
     font-style: normal;
-    font-weight: 400;
     line-height: 21px;
 }
 
@@ -63,7 +63,6 @@ body {
     padding: 0.2rem 0 0.5rem 0;
     color: var(--azul);
     font-style: normal;
-    font-weight: 400;
     line-height: 21px;
 }
 
@@ -89,7 +88,6 @@ input::placeholder {
     font-family: var(--fonte-principal);
     color: var(--cinza-claro);
     font-size: 12px;
-    font-weight: 400;
     line-height: 16px;
 }
 
@@ -98,9 +96,7 @@ input::placeholder {
     width: 10rem;
     padding: 0.5rem;
     background-color: var(--coral);
-    font-family: var(--fonte-principal);
     color: var(--branco);
-    font-size: 16px;
     font-weight: 600;
     line-height: 24px;
     border-radius: 6px;
@@ -112,9 +108,7 @@ input::placeholder {
     width: 10rem;
     padding: 0.5rem;
     background-color: var(--coral);
-    font-family: var(--fonte-principal);
     color: var(--branco);
-    font-size: 16px;
     font-weight: 600;
     line-height: 24px;
     border-radius: 6px;
@@ -125,7 +119,6 @@ input::placeholder {
     display: block;
     margin: 0.5rem 0 0 0;
     color: var(--coral);
-    font-weight: 400;
     font-size: 12px;
     line-height: 24px;
     text-decoration: underline;
@@ -135,7 +128,6 @@ input::placeholder {
     background-color: var(--verde);
     padding: 2.7rem;
     color: var(--branco);
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     text-align: center;
