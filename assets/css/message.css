@@ -98,7 +98,6 @@ input::placeholder, textarea::placeholder {
     cursor: pointer;
 }
 
-
 .rodape {
     background-color: var(--verde);
     padding: 2.7rem;
