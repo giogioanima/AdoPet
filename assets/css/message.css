@@ -62,7 +62,7 @@ form {
 }
 
 form label, form legend {
-    margin: 1rem 0 0 0;
+    margin: 1rem 0 0.5rem 0;
     color: var(--azul);
     font-weight: 600;
 }
@@ -85,9 +85,10 @@ input::placeholder, textarea::placeholder {
 }
 
 .enviar {
-    margin: 1.5rem 0 15.5rem 0;
-    width: 10rem;
+    margin: 2rem 0 1rem 0;
     padding: 0.5rem;
+    align-self: center;
+    width: 50%;
     background-color: var(--coral);
     font-family: var(--fonte-principal);
     color: var(--branco);
@@ -96,7 +97,6 @@ input::placeholder, textarea::placeholder {
     border-radius: 6px;
     cursor: pointer;
 }
-
 
 .rodape {
     background-color: var(--verde);
