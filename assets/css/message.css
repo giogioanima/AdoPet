@@ -1,0 +1,93 @@
+:root {
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --azul: #3772FF;
+    --verde: #36D6AD;
+    --coral: #FC7071;
+    --creme: #FCF0E3;
+    --cinza: #737380;
+    --cinza-claro: #BCBCBC;
+    --cinza-claro-fundos: #F7F7F7;
+
+    --fonte-principal: 'Poppins', san-serif;
+    --fonte-secundaria: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+    background-image: url('../img/Patas.svg'), url('../img/OndasCima.svg'), url('../img/OndasLaterais2.svg');
+    background-position: top right, top left, bottom 8.5rem left -0.1rem ;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+    display: flex;
+    flex-direction: column;
+}
+
+.corpo-principal {
+    background-color: var(--branco);
+}
+
+.cabecalho {
+    padding: 3rem;
+}
+
+.cabecalho-img {
+    margin-right: 3.2rem;
+}
+
+.txt-message {
+    margin: 3rem auto 2.3rem auto;
+    padding: 0.2rem 0 0.5rem 0;
+    color: var(--azul);
+    font-style: normal;
+    line-height: 21px;
+}
+
+form {
+    margin: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(cinza-claro-fundos);
+}
+
+form label, form legend {
+    margin: 1rem 0 0 0;
+    color: var(--azul);
+    font-style: bold;
+}
+
+form input, form textarea {
+    background-color: var(--branco);
+    text-align: center;
+    margin: 0.3rem auto 0 auto;
+	padding: 12px 25px;
+	width: 88%;
+    box-shadow: 0px 2px 2px 0px #00000026;
+    border-color: var(--cinza-claro-fundos);
+    border-radius: 6px;
+}
+
+input::placeholder {
+    margin: auto;
+    font-family: var(--fonte-principal);
+    color: var(--cinza-claro);
+    font-size: 16px;
+    line-height: 21px;
+}
+
+
+
+.rodape {
+    background-color: var(--verde);
+    padding: 2.7rem;
+    color: var(--branco);
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.assinatura {
+    color: var(--branco);
+}

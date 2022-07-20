@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>AdoPet | Cadastro</title>
+		<link rel="stylesheet" href="assets/css/reset.css">
+		<link rel="stylesheet" href="assets/css/message.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	</head>
+
+    <body class="corpo-principal">
+        <header class="cabecalho">
+			<nav>
+				<a href="home.html"><img src="assets/img/Casa.svg" alt="Página inicial" class="cabecalho-img"></a>
+				<a href="message.html"><img src="assets/img/Mensagens.svg" alt="Caixa de mensagens" class="cabecalho-img"></a>
+			</nav>
+
+			<nav class="cabecalho-perfil">
+				<a href="perfil.html"><img src="assets/img/Usuario.svg" alt="Perfil" class="cabecalho-user-img"></a>
+			</nav>
+		</header>
+
+        <main class="conteudo-message">
+            <p class="txt-message">Envie uma mensagem para a pessoa ou instituição que está cuidando do animal:</p>
+
+            <form class="form-message">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" class="input-nome" required placeholder="Digite seu nome completo">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-telefone" required placeholder="Insira seu telefone e/ou whatsapp" pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})">
+
+                <label for="nome-animal">Nome do animal</label>
+                <input type="text" id="nome-animal" class="input-nome-animal" required placeholder="Por qual animal você se interessou?">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="68" rows="10" id="mensagem" class="input-padrao" required placeholder="Escreva sua mensagem"></textarea>
+
+                <input type="submit" value="Enviar formulário" class="enviar">
+            </form>
+        </main>
+
+        <footer class="rodape">
+			<p class="texto-rodape">2022 - Desenvolvido por <a href="https://github.com/giogioanima" class="assinatura">Gio Queiroz</a>.</p>
+		</footer>
+    </body>
