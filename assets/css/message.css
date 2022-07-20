@@ -37,6 +37,11 @@ body {
     margin-right: 3.2rem;
 }
 
+.cabecalho-user-img {
+    position: absolute;
+    margin: -0.5rem 0 0 5rem;
+}
+
 .txt-message {
     margin: 3rem auto 2.3rem auto;
     padding: 0.2rem 0 0.5rem 0;
