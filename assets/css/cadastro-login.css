@@ -97,6 +97,7 @@ input::placeholder {
     padding: 0.5rem;
     background-color: var(--coral);
     color: var(--branco);
+    font-family: var(--fonte-principal);
     font-weight: 600;
     line-height: 24px;
     border-radius: 6px;
@@ -108,7 +109,8 @@ input::placeholder {
     width: 10rem;
     padding: 0.5rem;
     background-color: var(--coral);
-    color: var(--branco);
+    color: var(--branco);    
+    font-family: var(--fonte-principal);
     font-weight: 600;
     line-height: 24px;
     border-radius: 6px;
