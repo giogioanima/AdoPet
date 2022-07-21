@@ -59,6 +59,7 @@ form {
     flex-direction: column;
     background-color: var(--cinza-claro-fundos);
     border-radius: 10px;
+    -webkit-appearance: none;
 }
 
 form label, form legend {
