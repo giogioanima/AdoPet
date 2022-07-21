@@ -103,6 +103,7 @@ input::placeholder {
     line-height: 24px;
     border-radius: 6px;
     cursor: pointer;
+    -webkit-appearance: none;
 }
 
 .enviar-login {
@@ -116,6 +117,7 @@ input::placeholder {
     line-height: 24px;
     border-radius: 6px;
     cursor: pointer;
+    -webkit-appearance: none;
 }
 
 .esqueci-senha {

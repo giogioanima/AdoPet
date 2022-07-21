@@ -97,6 +97,7 @@ input::placeholder, textarea::placeholder {
     line-height: 24px;
     border-radius: 6px;
     cursor: pointer;
+    -webkit-appearance: none;
 }
 
 .rodape {
