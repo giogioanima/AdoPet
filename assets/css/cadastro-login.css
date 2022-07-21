@@ -79,6 +79,7 @@ form input {
 	padding: 12px 25px;
 	width: 88%;
     box-shadow: 0px 2px 2px 0px #00000026;
+    -webkit-appearance: none;
     border-color: var(--cinza-claro-fundos);
     border-radius: 6px;
 }
