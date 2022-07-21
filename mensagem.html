@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>AdoPet | Enviar mensagem</title>
 		<link rel="stylesheet" href="assets/css/reset.css">
-		<link rel="stylesheet" href="assets/css/mensagem.css">
+		<link rel="stylesheet" href="assets/css/mensagem-perfil.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
@@ -25,18 +25,18 @@
 			</nav>
 		</header>
 
-        <main class="conteudo-message">
+        <main class="conteudo-message-perfil">
             <p class="txt-message">Envie uma mensagem para a pessoa ou instituição que está cuidando do animal:</p>
 
-            <form class="form-message">
+            <form class="form-message-perfil">
                 <label for="nome">Nome</label>
-                <input type="text" id="nome" class="input-nome" required placeholder="Insira seu nome completo">
+                <input type="text" id="nome" class="input-padrao" required placeholder="Insira seu nome completo">
 
                 <label for="telefone">Telefone</label>
-                <input type="tel" id="telefone" class="input-telefone" required placeholder="Insira seu telefone e/ou whatsapp" pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})">
+                <input type="tel" id="telefone" class="input-padrao" maxlength="15" pattern="\(\d{2}\)\s*\d{5}-\d{4}" required placeholder="Insira seu telefone e/ou whatsapp">
 
                 <label for="nome-animal">Nome do animal</label>
-                <input type="text" id="nome-animal" class="input-nome-animal" required placeholder="Por qual animal você se interessou?">
+                <input type="text" id="nome-animal" class="input-padrao" required placeholder="Por qual animal você se interessou?">
 
                 <label for="mensagem">Mensagem</label>
                 <textarea cols="68" rows="10" id="mensagem" class="input-padrao" required placeholder="Escreva sua mensagem"></textarea>

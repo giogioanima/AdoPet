@@ -14,8 +14,8 @@
 }
 
 body {
-    background-image: url('../img/Patas.svg'), url('../img/OndasCima.svg'), url('../img/OndasLaterais2.svg');
-    background-position: top right, top left, bottom 8.5rem left -0.1rem ;
+    background-image: url('../img/OndasCima.svg');
+    background-position: top left;
     background-repeat: no-repeat;
     min-height: 100vh;
     font-size: 16px;
@@ -31,74 +31,111 @@ body {
 
 .cabecalho {
     padding: 3rem;
+    display: flex;
 }
 
 .cabecalho-img {
     margin-right: 3.2rem;
 }
 
-.conteudo-main {
-    position: relative;
+.cabecalho-user-img {
+    position: absolute;
+    margin: -0.5rem 0 0 5rem;
+}
+
+.txt-message {
     text-align: center;
-    margin: 0;
-    color: var(--cinza);
-    flex: 1;
-}
-
-.logo-azul {
-    width: 45%;
-    padding: 1.8rem 0 1rem 0;
-}
-
-.txt-cadastro {
-    margin: 0 1rem 0 1rem;
-    padding: 0.2rem 0 0.5rem 0;
+    margin: 3rem auto 1.5rem auto;
+    padding: 0 4rem 0 4rem;
     color: var(--azul);
     font-style: normal;
     line-height: 21px;
 }
 
-.txt-login {
-    margin: 2rem auto 2.3rem auto;
-    padding: 0.2rem 0 0.5rem 0;
+.txt-perfil {
+    text-align: center;
+    margin: 3rem auto 1.5rem auto;
+    padding: 0 3.5rem 0 3.5rem;
     color: var(--azul);
     font-style: normal;
     line-height: 21px;
 }
 
-form label, form legend {
-    margin: 1rem 0 0 0;
-	display: block;
-    text-align: center;
-}
-
-form input {
+form {
+    margin: 1rem 1.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
     background-color: var(--cinza-claro-fundos);
+    border-radius: 10px;
+}
+
+.titulo-perfil {
+    margin: 1rem 0 0rem 0;
     text-align: center;
-    margin: 0.3rem auto 0 auto;
-	padding: 12px 25px;
-	width: 88%;
+    color: var(--cinza);
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 24px;
+}
+
+.label-foto, form label, form legend {
+    margin: 1rem 0 0.5rem 0;
+    color: var(--azul);
+    font-weight: 600;
+}
+
+.edit-foto {
+    margin: 0 0 -0.5rem 0;
+    text-align: center;
+    color: var(--coral);
+    font-size: 12px;
+    line-height: 24px;
+}
+
+form input, form textarea {
+    background-color: var(--branco);
+	padding: 15px 15px;
+	width: 100%;
     box-shadow: 0px 2px 2px 0px #00000026;
     -webkit-appearance: none;
     border-color: var(--cinza-claro-fundos);
     border-radius: 6px;
 }
 
-input::placeholder {
+.perfil-img {
+    background-color: transparent;
+    padding: 0 0 0.4rem 0;
+    align-self: center;
+    width: 30%;
+    box-shadow: none;
+    -webkit-appearance: none;
+}
+
+.input-padrao::placeholder {
     margin: auto;
     font-family: var(--fonte-principal);
     color: var(--cinza-claro);
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 24px;
 }
 
-.enviar-cadastro {
-    margin: 1.5rem 0 7rem 0;
-    width: 10rem;
+.input-padrao-perfil::placeholder {
+    margin: auto;
+    font-family: var(--fonte-principal);
+    color: var(--cinza);
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.enviar {
+    margin: 2rem 0 1rem 0;
     padding: 0.5rem;
+    align-self: center;
+    width: 50%;
     background-color: var(--coral);
+    font-family: var(--fonte-principal);
     color: var(--branco);
-    font-family: var(--fonte-principal);
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
@@ -107,28 +144,20 @@ input::placeholder {
     -webkit-appearance: none;
 }
 
-.enviar-login {
-    margin: 1.5rem 0 15.5rem 0;
-    width: 10rem;
+.salvar {
+    margin: 2rem 0 1rem 0;
     padding: 0.5rem;
+    align-self: center;
+    width: 50%;
     background-color: var(--coral);
-    color: var(--branco);    
     font-family: var(--fonte-principal);
+    color: var(--branco);
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     border-radius: 6px;
     cursor: pointer;
     -webkit-appearance: none;
-}
-
-.esqueci-senha {
-    display: block;
-    margin: 0.5rem 0 0 0;
-    color: var(--coral);
-    font-size: 12px;
-    line-height: 24px;
-    text-decoration: underline;
 }
 
 .rodape {
